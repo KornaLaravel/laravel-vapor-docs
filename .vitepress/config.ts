@@ -75,13 +75,13 @@ export default defineConfigWithTheme<ThemeConfig>({
             {
                 text: 'Getting Started',
                 items: [
-                    { text: 'Introduction', link: '/introduction' },
+                    { text: 'Introduction', link: '/introduction.html' },
                 ],
               },
               {
                 text: 'Projects',
                 items: [
-                  { text: 'The Basics', link: '/projects/the-basics' },
+                  { text: 'The Basics', link: '/projects/the-basics.html' },
                   { text: 'Environments', link: '/projects/environments.html' },
                   { text: 'Deployments', link: '/projects/deployments.html' },
                   { text: 'Development', link: '/projects/development.html' },
