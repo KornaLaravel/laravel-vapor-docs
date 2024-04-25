@@ -118,6 +118,11 @@ npm install --save-dev laravel-vapor
 Next, within your application's `app.js` file, initialize the global Vapor JavaScript object:
 
 ```js
+// Vite
+import Vapor from 'laravel-vapor'
+window.Vapor = Vapor
+
+// Mix
 window.Vapor = require('laravel-vapor');
 ```
 
